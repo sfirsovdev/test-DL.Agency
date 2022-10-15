@@ -1,0 +1,70 @@
+:root {
+  --main-text-color: #757575;
+  --second-text-color: #212121;
+}
+
+body {
+  background-color: var(--text-color);
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+  color: var(--main-text-color);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+picture,
+picture img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  position: relative;
+  z-index: 200;
+  background: #fff;
+}
+
+.header__title {
+  color: blue;
+}
