@@ -7,14 +7,15 @@
     <title>PagePiling.js plugin</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@400;500;600;700&family=Risque&family=Roboto:wght@400;500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/main.min.css">
     <link rel="stylesheet" type="text/css" href="/css/jquery.pagepiling.min.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="/js/jquery.pagepiling.min.js"></script>
-    <script src="/js/menu.js"></script>
+
     
     
 </head>
@@ -45,35 +46,43 @@
         
         </ul>
         </div>
-    
 
-        <div class="header__wrapper">
-            <div class="menu">
-            <a href ="#" class="menu-btn"></a>
-            <nav class="menu-list">
-                <a href="#" class="menu__link">Главная</a>
-                <a href="#" class="menu__link">Новости</a>
-                <a href="#" class="menu__link">Контакты</a>
-                <a href="#" class="menu__link">Портфолио</a>
-            </nav>
-            </div>
-            <div class="content">
-                <section class="main">
-                    <h2>Главная</h2>
-                </section>
-                <section class="news">
-                    <h2>Новости</h2>
-                </section>
-                <section class="contacts">
-                    <h2>Контакты</h2>
-                </section>
-                <section class="portfolio">
-                    <h2>Портфолио</h2>
-                </section>
-            </div>
-        </div>
+<button class="open-menu-btn" icon-menu_burger>
+    <svg class="menu-icon">
+        <use href="./images/svg/icons.svg#icon-Burger"></use>
+    </svg>
+</button>
+</nav>
 
         </nav>
+    </div>
+
+    <div class="mob-menu">
+        <button class="close-menu-btn">
+            <svg class="menu-iconclose">
+                <use href="./images/svg/icons.svg#icon-close_24px"></use>
+            </svg>
+        </button>
+    
+        <div class="mob-menu-top">
+            <ul class="mobmenu">
+                <li class="mobmenu__item">
+                    <a href="#" class="mobmenu__link active">Main</a>
+                </li>
+                <li class="mobmenu__item">
+                    <a href="#" class="mobmenu__link">About</a>
+                </li>
+                <li class="mobmenu__item">
+                    <a href="#" class="mobmenu__link">Product</a>
+                </li>
+                <li class="mobmenu__item">
+                    <a href="#" class="mobmenu__link">Contacts</a>
+                </li>
+            </ul>
+        </div>
+    
+    </div>
+    
     </div>
 
     <div id="pagepiling">
@@ -102,5 +111,6 @@
             });
         });
 </script>
+<script src="/js/menu.js"></script>
 </body>
 </html>
