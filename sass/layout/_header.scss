@@ -1,9 +1,40 @@
 .header {
     position: relative;
     z-index: 200;
-    background: #fff;
+    background: #070719;
 }
 
-.header__title {
-    color: blue;
+.header__nav {
+    margin-top: 38.94px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__item {
+    margin-right: 34px;
+    &:last-child {
+            margin-right: 0;
+        }
+    
+}
+
+.header__linkcurrent {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.17px;
+    cursor: pointer;
+    color: var(--second-text-color);
+    transition: color 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+    &:hover,
+    &:focus {
+        color: var(--accent-text-color);
+    }
 }

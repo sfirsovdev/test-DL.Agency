@@ -14,10 +14,66 @@
     <link rel="stylesheet" type="text/css" href="/css/jquery.pagepiling.min.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="/js/jquery.pagepiling.min.js"></script>
+    <script src="/js/menu.js"></script>
+    
+    
 </head>
 <body>
-    <div class="header">
-        <h1 class="header__title">Хедер</h1>
+    <div class="container header">
+        <nav class="header__nav">
+        <div class="header__logo">
+        <a href="#"><img src="/images/logo/Coca-Cola_logo_white 1.png" alt=”Logo”></a>
+        </div>
+
+        <div class="header__menu">
+        <ul class="header__list">
+            <li class="header__item">
+                <a href="#" class="header__linkcurrent active">Main</a>
+            </li>
+
+            <li class="header__item">
+                <a href="#" class="header__linkcurrent">About</a>
+            </li>
+
+            <li class="header__item">
+                <a href="#" class="header__linkcurrent">Product</a>
+            </li>
+
+            <li class="header__item">
+                <a href="#" class="header__linkcurrent">Contacts</a>
+            </li>
+        
+        </ul>
+        </div>
+    
+
+        <div class="header__wrapper">
+            <div class="menu">
+            <a href ="#" class="menu-btn"></a>
+            <nav class="menu-list">
+                <a href="#" class="menu__link">Главная</a>
+                <a href="#" class="menu__link">Новости</a>
+                <a href="#" class="menu__link">Контакты</a>
+                <a href="#" class="menu__link">Портфолио</a>
+            </nav>
+            </div>
+            <div class="content">
+                <section class="main">
+                    <h2>Главная</h2>
+                </section>
+                <section class="news">
+                    <h2>Новости</h2>
+                </section>
+                <section class="contacts">
+                    <h2>Контакты</h2>
+                </section>
+                <section class="portfolio">
+                    <h2>Портфолио</h2>
+                </section>
+            </div>
+        </div>
+
+        </nav>
     </div>
 
     <div id="pagepiling">

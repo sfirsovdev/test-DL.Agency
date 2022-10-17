@@ -1,0 +1,67 @@
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    color:#fff;
+}
+
+.main {
+    background-color:  aqua;
+}
+
+.news {
+    background-color: rgb(64, 46, 169);
+}
+
+.contacts {
+    background-color: rgb(190, 35, 182);
+}
+
+.portfolio {
+    background-color: rgb(31, 193, 31);
+}
+
+.header__wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 0;top:0;
+    width: 30%;
+    height: 100vh;
+    background-color: #fff;
+    transition: 1s;
+    transform: translateX(+100%);
+}
+
+.open-menu-btn {
+    transform: translateX(0%);
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    flex-direction: column;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: brown;
+}
+
+.menu-btn {
+    width: 30px;
+    height: 30px;
+    background-color:forestgreen;
+    position: absolute;
+    left: -30px;
+    top: 10px;
+}
