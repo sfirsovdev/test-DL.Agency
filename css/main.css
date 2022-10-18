@@ -74,49 +74,7 @@ picture img {
   display: flex;
 }
 
-.open-menu-btn {
-  background: none;
-  border-color: transparent;
-  border: none;
-  padding: 0;
-  margin-right: 8px;
-}
-
-.close-menu-btn {
-  background: none;
-  border-color: transparent;
-  margin-left: auto;
-}
-
-.menu-icon {
-  width: 60.12px;
-  height: 60.12px;
-}
-
-.menu-iconclose {
-  width: 28px;
-  height: 25px;
-  fill: #fff;
-}
-
-.close-menu-btn {
-  margin-top: 0;
-  padding: 5px;
-  background: none;
-  border: none;
-  display: block;
-  margin-right: 70px;
-  -webkit-transition: color 250ms linear, border-color 250ms;
-  transition: color 250ms linear, border-color 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.close-menu-btn:hover, .close-menu-btn:focus {
-  fill: var(--accent-text-color);
-}
-
-.mob-menu {
+.mob-menu-top {
   display: none;
   position: fixed;
   text-align: center;
@@ -124,11 +82,12 @@ picture img {
   right: 0;
   width: 643px;
   height: 100vh;
-  z-index: 999;
-  padding-top: 50px;
+  padding-top: 200px;
+  -webkit-transition: left 500ms cubic-bezier(0.68, 0.55, 0.27, 1.55);
+  transition: left 500ms cubic-bezier(0.68, 0.55, 0.27, 1.55);
 }
 
-.mob-menu.is-open {
+.mob-menu-top.animate {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -140,15 +99,11 @@ picture img {
 }
 
 .mobmenu__item {
-  padding-bottom: 32px;
+  margin-bottom: 38px;
 }
 
-.mob-menu-top {
-  margin-top: 0;
-}
-
-.mob-menu-bottom {
-  margin-top: auto;
+.mobmenu__item:last-child {
+  margin-bottom: 0;
 }
 
 .mobmenu__link {
@@ -162,27 +117,6 @@ picture img {
 
 .mobmenu__link:active {
   color: var(--accent-text-color);
-}
-
-.menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 100%;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
-
-.mobmenu {
-  padding-top: 30%;
 }
 
 .button {
@@ -209,29 +143,37 @@ picture img {
   color: var(--text-color);
 }
 
+.burger-background {
+  width: 60px;
+  height: 60px;
+  border: solid #D02B2B 2px;
+  border-radius: 50px 0px 50px 50px;
+  background: #D02B2B;
+}
+
 .burger {
   position: absolute;
-  right: 10px;
-  top: 10px;
-  width: 50px;
-  height: 50px;
+  right: 62px;
+  z-index: 999;
+  width: 30px;
+  height: 46px;
   cursor: pointer;
 }
 
 .burger span, .burger span::after, .burger span::before {
   width: 100%;
-  height: 10px;
+  height: 3px;
   position: absolute;
-  background: var(--second-text-color);
   display: block;
   -webkit-transition: .3s;
   transition: .3s;
   border-radius: 5px;
+  background: var(--second-text-color);
 }
 
 .burger span::before {
   content: "";
-  top: -20px;
+  top: -10px;
   -webkit-transition: top 300ms 300ms, -webkit-transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
   transition: top 300ms 300ms, -webkit-transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
   transition: top 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
@@ -244,11 +186,11 @@ picture img {
 
 .burger span::after {
   content: "";
-  bottom: -20px;
-  -webkit-transition: top 300ms 300ms, -webkit-transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
-  transition: top 300ms 300ms, -webkit-transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
-  transition: top 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
-  transition: top 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  bottom: -10px;
+  -webkit-transition: bottom 300ms 300ms, -webkit-transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  transition: bottom 300ms 300ms, -webkit-transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  transition: bottom 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  transition: bottom 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .burger span.active::before {
@@ -284,14 +226,16 @@ picture img {
   background: #070719;
 }
 
+.header__menu {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header__nav {
   padding-top: 38.94px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -362,4 +306,6 @@ picture img {
 
 .main__img {
   padding-right: 0;
+  width: 100%;
+  height: 100%;
 }

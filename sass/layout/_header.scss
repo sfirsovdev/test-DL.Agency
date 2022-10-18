@@ -5,10 +5,14 @@
     background: #070719;
 }
 
+.header__menu {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .header__nav {
     padding-top: 38.94px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
