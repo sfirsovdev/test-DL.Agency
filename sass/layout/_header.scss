@@ -1,11 +1,12 @@
 .header {
     position: relative;
+    width: 100%;
     z-index: 200;
     background: #070719;
 }
 
 .header__nav {
-    margin-top: 38.94px;
+    padding-top: 38.94px;
     display: flex;
     justify-content: space-between;
     align-items: center;

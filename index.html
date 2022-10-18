@@ -16,8 +16,6 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="/js/jquery.pagepiling.min.js"></script>
 
-    
-    
 </head>
 <body>
     <div class="container header">
@@ -86,31 +84,38 @@
     </div>
 
     <div id="pagepiling">
-        <div class="section" id="page1">
-        <h1>SLIDE 1</h1>
+        <div class="section main container" id="main">
+        
+        <div class="main__box">   
+        <div class="main__left">   
+        <h1 class="main__title">Main Site Title</h1>
+        <p class="main__text">Lorem ipsum descripsum</p>
+        <button class="button">Call to action</button>
         </div>
 
-        <div class="section" id="page2">
+        <div class="main__right">
+        <img src="./images/main/dedcoca.png" alt=”дед_мороз” class="main__img">
+
+        </div>
+        </div>
+        </div> 
+
+        <div class="section about" id="about">
             <h1>SLIDE 2</h1>
         </div>
 
-        <div class="section" id="page3">
+        <div class="section product" id="product">
             <h1>SLIDE 3</h1>
         </div>
 
-        <div class="section" id="page4">
+        <div class="section contacts" id="contacts">
             <h1>SLIDE 4</h1>
         </div>
 
     </div>
 
-<script type="text/javascript">
-    $(document).ready(function () {
-            $('#pagepiling').pagepiling( {
-                sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'red'],
-            });
-        });
-</script>
+
 <script src="/js/menu.js"></script>
+<script src="/js/scroll.js"></script>
 </body>
 </html>

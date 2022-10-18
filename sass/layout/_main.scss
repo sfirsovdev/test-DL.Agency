@@ -1,0 +1,32 @@
+.main {
+    background-color:#070719 !important;
+}
+
+.main__box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.main__title {
+    margin-bottom: 20px;
+    font-family: Risque;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 1.2;
+    color: var(--second-text-color);
+}
+
+.main__text {
+    margin-bottom: 27px;
+    font-family: Risque;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 1.2;
+    color: var(--second-text-color);
+}
+
+.main__img {
+    padding-right: 0;
+}
+
