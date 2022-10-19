@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PagePiling.js plugin</title>
+    <title>Test</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -73,22 +73,95 @@
         <div class="section main container" id="main">
         
         <div class="main__box">   
-        <div class="main__left">   
-        <h1 class="main__title">Main Site Title</h1>
-        <p class="main__text">Lorem ipsum descripsum</p>
-        <button class="button">Call to action</button>
+            <div class="main__left">   
+                <h1 class="main__title">Main Site Title</h1>
+                <p class="main__text">Lorem ipsum descripsum</p>
+                <button class="button">Call to action</button>
         </div>
 
         <div class="main__right">
         <img src="./images/main/dedcoca.png" alt=”дед_мороз” class="main__img">
 
-        </div>
-        </div>
+                </div>
+            </div>
         </div> 
 
-        <div class="section about" id="about">
-            <h1>SLIDE 2</h1>
+        <div class="section  about container" id="about">
+
+        <div class="about__box">
+            <div class="about__left">
+                <h1 class="about__title">At least somewhere you can <br>
+                    feel new year atmosphere</h1>
+                <p class="about__text">Choose your present:</p>
+        
+
+            <ul class="about__list">
+                <li class="about__imgborder is-active"><span data-open-block="investments"><img src="./images/about/new-year-sock.png" alt=”носок” class="sock__img"></span></li>
+                <li class="about__imgborder"><span data-open-block="deposits"><img src="./images/about/caps.png" alt=”кепка” class="caps__img"></span></li>
+                <li class="about__imgborder"><span data-open-block="awards"><img src="./images/about/new-year-bag.png" alt=”мешок” class="bag__img"></span>
+                </li>
+            </ul>
+
+            </div>
+            
+        <div class="about__right">
+            
+            
+            <div class="content is-active" data-content="investments">
+                <div class="about__item__border">
+                <div class="about__box__sock">
+                    <h2 class="about__present__title">Best sock ever</h2>
+                    <p class="about__present__description">Reuglar sock have no
+                        present inside
+                        Lorem Ipsum is simply dumm y text
+                        of the printing and types etting
+                        industry. Lorem</p>
+                </div>
+            
+                <div class="about__box__sock__img">
+                    <img src="./images/about/new-year-sock.png" alt=”носок” class="present__sock__img">
+                </div>
+                </div>
+            </div>
+            
+            <div class="content" data-content="deposits">
+                <div class="about__item__border">
+                <div class="about__box__hat">
+                    <h2 class="about__present__title">Best hat ever</h2>
+                    <p class="about__present__description">Reuglar hat have no
+                        present inside
+                        Lorem Ipsum is simply dumm y text
+                        of the printing and types etting
+                        industry. Lorem</p>
+                </div>
+            
+                <div class="about__box__hat__img">
+                    <img src="./images/about/caps.png" alt=”шапка” class="present__hat__img">
+                </div>
+            </div>
+            </div>
+            
+            <div class="content" data-content="awards">
+                <div class="about__item__border">
+                <div class="about__box__bag">
+                    <h2 class="about__present__title">Best bag ever</h2>
+                    <p class="about__present__description">Reuglar bag have no
+                        present inside
+                        Lorem Ipsum is simply dumm y text
+                        of the printing and types etting
+                        industry. Lorem</p>
+                </div>
+            
+                <div class="about__box__bag__img">
+                    <img src="./images/about/new-year-bag.png" alt=”bag” class="present__bag__img">
+                </div>
+            </div>
+            </div>
+            
         </div>
+    </div>
+</div>
+
 
         <div class="section product" id="product">
             <h1>SLIDE 3</h1>
@@ -103,5 +176,9 @@
 
 <script src="/js/scroll.js"></script>
 <script src="/js/burger.js"></script>
+<script src="/js/present.js"></script>
 </body>
 </html>
+
+
+
