@@ -95,17 +95,11 @@
     height: 149.78px;
     border: solid 2px #fff;
     border-radius: 50%;
-    background: transparent;
+    background: var(--second-text-color);
     cursor: pointer;
-
-    // &:active,
-    // &:hover,
-    // &:focus {
-    //     background-color: var(--second-text-color);
-    //     }
 }
 
-.about__imgborder .is-active {
-    background-color: red;
+.about__imgborder.is-active {
+    background: transparent;
 }
 
