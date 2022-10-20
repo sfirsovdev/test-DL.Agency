@@ -404,6 +404,6 @@ picture img {
   cursor: pointer;
 }
 
-.about__imgborder:active, .about__imgborder:hover, .about__imgborder:focus {
-  background-color: var(--second-text-color);
+.about__imgborder .is-active {
+  background-color: red;
 }

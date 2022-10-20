@@ -87,7 +87,7 @@
     display: block;
 }
 
-.about__imgborder {
+.about__imgborder  {
     margin-right: 32px;
     padding-top: 18px;
     text-align: center;
@@ -98,13 +98,14 @@
     background: transparent;
     cursor: pointer;
 
+    // &:active,
     // &:hover,
     // &:focus {
     //     background-color: var(--second-text-color);
     //     }
 }
 
-.active, .about__imgborder:hover {
-    background-color: var(--second-text-color);
+.about__imgborder .is-active {
+    background-color: red;
 }
 
