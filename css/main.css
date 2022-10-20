@@ -300,6 +300,9 @@ picture img {
 
 .about {
   background-image: url(../images/about/about_background_pc-1x.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .about__box {
