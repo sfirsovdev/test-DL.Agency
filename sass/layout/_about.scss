@@ -97,11 +97,14 @@
     border-radius: 50%;
     background: transparent;
     cursor: pointer;
-    
-    &:active,
-    &:hover,
-    &:focus {
-        background-color: var(--second-text-color);
-        }
+
+    // &:hover,
+    // &:focus {
+    //     background-color: var(--second-text-color);
+    //     }
+}
+
+.active, .about__imgborder:hover {
+    background-color: var(--second-text-color);
 }
 
