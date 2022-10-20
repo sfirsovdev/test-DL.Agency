@@ -11,7 +11,7 @@
         border: solid 2px #D02B2B;
         margin-right: 5px;
         display: block;
-        border-radius: 2px;
+        border-radius: 3px;
     }
 
     .modal-check:checked+&::before {
@@ -54,16 +54,16 @@
     background: transparent;
     width: 220px;
     height: 48px;
-    border: solid 2px #fff;
-    border-radius: 10px;
+    border: solid 3px #fff;
+    border-radius: 15px;
 }
 
 .form__item__witsh {
     background: transparent;
     width: 468px;
     height: 76px;
-    border: solid 2px #fff;
-    border-radius: 10px;
+    border: solid 3px #fff;
+    border-radius: 15px;
 }
 
 .form__input {
