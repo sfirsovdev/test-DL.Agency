@@ -516,7 +516,7 @@ input::placeholder {
   background-color: #070701 !important;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  max-height: 755px;
 }
 
 .stars__img {
@@ -654,7 +654,7 @@ input::placeholder {
   background-image: url(../images/about/about_background_pc-1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  max-height: 755px;
 }
 
 .about__right {
@@ -767,7 +767,7 @@ input::placeholder {
   background-image: url(../images/write_us/write_us_background_pc-1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  max-height: 755px;
 }
 
 .writeus__title {
