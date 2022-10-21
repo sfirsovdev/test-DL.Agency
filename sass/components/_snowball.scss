@@ -1,0 +1,37 @@
+.snowball__main-img {
+    position: absolute;
+    left: -220px;
+    top: 269px;
+    animation: 1s linear 0s normal none infinite running rot;
+    -webkit-animation: 50s linear 0s normal none infinite running rot;
+    width: 520px;
+}
+
+@keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.snowball__about-img {
+    position: absolute;
+    left: -219px;
+    top: -147px;
+    animation: 1s linear 0s normal none infinite running rot;
+    -webkit-animation: 50s linear 0s normal none infinite running rot;
+    width: 520px;
+}
+
+@keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

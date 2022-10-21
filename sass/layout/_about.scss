@@ -5,11 +5,14 @@
     background-size: cover;
 }
 
+.about__right{
+    margin-left: 52px;
+}
+
 .about__box {
-    padding-top: 199px;
-    padding-left: 81px;
     display: flex;
-    justify-content: space-between;
+    padding-top: 199px;
+    padding-left: 33px;
 }
 
 .about__title {
@@ -104,4 +107,5 @@
 .about__imgborder.is-active {
     background: transparent;
 }
+
 

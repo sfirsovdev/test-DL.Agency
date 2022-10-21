@@ -107,7 +107,7 @@ picture img {
 }
 
 .button {
-  background-color: black;
+  background-color: transparent;
   border: solid 2px #fff;
   border-radius: 20px 20px 20px 0px;
   width: 186.35px;
@@ -251,6 +251,10 @@ picture img {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
+}
+
+.form {
+  padding-left: 22px;
 }
 
 .form__box {
@@ -403,6 +407,57 @@ input::placeholder {
   display: none;
 }
 
+.snowball__main-img {
+  position: absolute;
+  left: -220px;
+  top: 269px;
+  animation: 1s linear 0s normal none infinite running rot;
+  -webkit-animation: 50s linear 0s normal none infinite running rot;
+  width: 520px;
+}
+
+@-webkit-keyframes rot {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rot {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.snowball__about-img {
+  position: absolute;
+  left: -219px;
+  top: -147px;
+  animation: 1s linear 0s normal none infinite running rot;
+  -webkit-animation: 50s linear 0s normal none infinite running rot;
+  width: 520px;
+}
+
+@keyframes rot {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
 .header {
   position: fixed;
   width: 100%;
@@ -495,15 +550,16 @@ input::placeholder {
 }
 
 .main__box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   padding-top: 253px;
-  padding-left: 100px;
+  padding-left: 90px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
+}
+
+.main__left {
+  position: absolute;
 }
 
 .main__title {
@@ -528,37 +584,6 @@ input::placeholder {
   position: absolute;
   top: 200px;
   left: 517px;
-}
-
-.snowball__img {
-  position: absolute;
-  left: -220px;
-  top: 269px;
-  animation: 1s linear 0s normal none infinite running rot;
-  -webkit-animation: 50s linear 0s normal none infinite running rot;
-  width: 447px;
-}
-
-@-webkit-keyframes rot {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-@keyframes rot {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
 }
 
 .animated-infinity-spin {
@@ -620,6 +645,11 @@ input::placeholder {
   color: var(--text-color);
 }
 
+.arrow__main-img {
+  position: absolute;
+  margin-top: 445px;
+}
+
 .about {
   background-image: url(../images/about/about_background_pc-1x.jpg);
   background-repeat: no-repeat;
@@ -627,15 +657,16 @@ input::placeholder {
   background-size: cover;
 }
 
+.about__right {
+  margin-left: 52px;
+}
+
 .about__box {
-  padding-top: 199px;
-  padding-left: 81px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  padding-top: 199px;
+  padding-left: 33px;
 }
 
 .about__title {
@@ -741,7 +772,7 @@ input::placeholder {
 
 .writeus__title {
   padding-top: 181px;
-  padding-left: 71px;
+  padding-left: 22px;
   margin-bottom: 29px;
   font-family: Risque;
   font-weight: 400;

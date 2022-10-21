@@ -27,12 +27,16 @@
 
 
 .main__box {
-    display: flex;
     padding-top: 253px;
-    padding-left: 100px;
+    padding-left: 90px;
     justify-content: space-between;
     width: 100%;
 }
+
+.main__left {
+    position: absolute;
+}
+
 .main__title {
     margin-bottom: 20px;
     font-family: Risque;
@@ -56,26 +60,6 @@
     top: 200px;
     left:517px;
 }
-
-.snowball__img  {
-    position: absolute;
-    left: -220px;
-    top: 269px;
-    animation: 1s linear 0s normal none infinite running rot;
-        -webkit-animation: 50s linear 0s normal none infinite running rot;
-        width: 447px;
-    }
-    
-    @keyframes rot {
-        0% {
-            transform: rotate(0deg);
-        }
-    
-        100% {
-            transform: rotate(360deg);
-        }
-    }
-    
 
 
 .animated-infinity-spin {
@@ -118,6 +102,9 @@
     color: var(--text-color);
 }
 
-
+.arrow__main-img {
+    position: absolute;
+    margin-top: 445px;
+}
 
 
