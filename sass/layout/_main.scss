@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
         
 }
 
@@ -38,10 +39,30 @@
     left:517px;
 }
 
-.snowball__img {
+.snowball__img  {
     position: absolute;
     left: -220px;
     top: 269px;
+    animation: 1s linear 0s normal none infinite running rot;
+        -webkit-animation: 50s linear 0s normal none infinite running rot;
+        width: 447px;
+    }
+    
+    @keyframes rot {
+        0% {
+            transform: rotate(0deg);
+        }
+    
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    
+
+
+.animated-infinity-spin {
+    animation: spin 1s linear;
+    animation-iteration-count: infinite;
 }
 
 .main__dedtext {
@@ -78,6 +99,7 @@
     line-height: 1.2;
     color: var(--text-color);
 }
+
 
 
 

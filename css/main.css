@@ -86,6 +86,9 @@ picture img {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: #D02B2B;
+  left: calc(50vw + 750px);
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
 }
 
 .mobmenu__item {
@@ -508,6 +511,38 @@ input::placeholder {
   position: absolute;
   left: -220px;
   top: 269px;
+  animation: 1s linear 0s normal none infinite running rot;
+  -webkit-animation: 50s linear 0s normal none infinite running rot;
+  width: 447px;
+}
+
+@-webkit-keyframes rot {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rot {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.animated-infinity-spin {
+  -webkit-animation: spin 1s linear;
+          animation: spin 1s linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 .main__dedtext {
