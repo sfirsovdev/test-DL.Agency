@@ -1,13 +1,13 @@
-.main {
-    background-color:#070719 !important;
+.main  {
+    background-color: rgb(7, 7, 25/20%) !important;
 }
 
 .main__box {
     display: flex;
+    padding-top: 253px;
     justify-content: space-between;
     width: 100%;
 }
-
 .main__title {
     margin-bottom: 20px;
     font-family: Risque;

@@ -32,21 +32,21 @@
         }
 }
 
-.dropdown__button::after{
-    content: "";
-    position: absolute;
-    top: 50%;
-    right: 15px;
-    transform:translateY(-50%);
+// .dropdown__button::after{
+//     content: "";
+//     position: absolute;
+//     top: 50%;
+//     right: 15px;
+//     transform:translateY(-50%);
 
-    width: 0;
-    height: 0;
-    border-width: 10.4px 6px 0 6px;
-    border-color: var(--second-text-color);
-    border-style: solid;
+//     width: 0;
+//     height: 0;
+//     border-width: 10.4px 6px 0 6px;
+//     border-color: var(--second-text-color);
+//     border-style: solid;
 
-    pointer-events: none;
-}
+//     pointer-events: none;
+// }
 
 .dropdown__list {
     display: none;

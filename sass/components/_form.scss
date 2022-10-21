@@ -1,8 +1,10 @@
 .modalchecktext {
     display: flex;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    color: var(--main-text-color);
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #D02B2B;
 
     &::before {
         content: "";

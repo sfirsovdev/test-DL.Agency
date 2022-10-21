@@ -213,9 +213,11 @@ picture img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #D02B2B;
 }
 
 .modalchecktext::before {
@@ -364,21 +366,6 @@ input::placeholder {
           box-shadow: 0px 0px 0px 1px #d7cfcf;
 }
 
-.dropdown__button::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: 15px;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  width: 0;
-  height: 0;
-  border-width: 10.4px 6px 0 6px;
-  border-color: var(--second-text-color);
-  border-style: solid;
-  pointer-events: none;
-}
-
 .dropdown__list {
   display: none;
   position: absolute;
@@ -420,10 +407,10 @@ input::placeholder {
 }
 
 .header {
-  position: relative;
+  position: fixed;
   width: 100%;
   z-index: 200;
-  background: #070719;
+  background: transparent;
 }
 
 .header__menu {
@@ -474,13 +461,14 @@ input::placeholder {
 }
 
 .main {
-  background-color: #070719 !important;
+  background-color: #070701 !important;
 }
 
 .main__box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 253px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -519,6 +507,7 @@ input::placeholder {
 }
 
 .about__box {
+  padding-top: 199px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -629,6 +618,7 @@ input::placeholder {
 }
 
 .writeus__title {
+  padding-top: 181px;
   margin-bottom: 29px;
   font-family: Risque;
   font-weight: 400;
