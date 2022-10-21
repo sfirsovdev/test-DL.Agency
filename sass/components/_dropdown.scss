@@ -3,17 +3,19 @@
 }
 
 .dropdown__button {
-    position: relative;
+    // position: relative;
     display: block;
-    width: 100%;
+    width: 220px;
+    height: 48px;
     text-align: left;
 
-    background: #fff;
-    border: 1px solid #7e9bbd;
-    border-radius: 6px;
-    height: 46px;
+    padding: 13px 16px 13px 20px;
+    margin-right: 23px;
 
-    padding: 13px 35px 13px 20px;
+    background: transparent;
+    border: 3px solid #fff;
+    border-radius: 15px;
+    color: var(--second-text-color);
 
     font-weight: 500;
     font-size: 16px;
@@ -21,9 +23,12 @@
 
     cursor: pointer;
 
-    &:focus, .dropdown__button--active {
+    &:active,
+    &:focus {
             outline: none;
-            box-shadow: 0px 0px 0px 4px rgba(176, 198, 225, 0.6);
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            box-shadow: 0px 0px 0px 1px #d7cfcf;
         }
 }
 
@@ -37,7 +42,7 @@
     width: 0;
     height: 0;
     border-width: 10.4px 6px 0 6px;
-    border-color: #79849B transparent transparent transparent;
+    border-color: var(--second-text-color);
     border-style: solid;
 
     pointer-events: none;
@@ -47,18 +52,20 @@
     display: none;
     position: absolute;
     left: 0;
-    top: 52px;
+    top: 45px;
 
     margin: 0;
     padding: 0;
     list-style-type: none;
 
     background: #fff;
-    box-shadow: 0px 4px 8px rgba(176, 198, 225,0.6);
+    box-shadow: 0px 2px 3px #d7cfcf;
     overflow: hidden;
 
-    border-radius: 6px;
-    width: 100%;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    width: 220px;
 
     z-index: 1;
 }
@@ -70,24 +77,15 @@
 .dropdown__list-item {
     margin: 0;
     padding: 0;
-    border: 1px solid #7e9bbd;
     border-bottom: 0;
     padding: 13px 20px;
     cursor: pointer;
+    color: #CECECE;
     
     &:hover,
     &:focus {
-            background: rgba(176, 198, 225, 0.26);
+            color: #D02B2B;
         }
-}
-
-.dropdown__list-item:first-child {
-    border-radius: 6px 6px 0 0;
-}
-
-.dropdown__list-item:last-child {
-    border-radius: 0 0 6px 6px;
-    border-bottom: 1px solid #7e9bbd;
 }
 
 .dropdown__input-hidden {

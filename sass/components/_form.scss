@@ -44,7 +44,7 @@
 .form__box {
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
+    width: 50%;
 }
 
 .form__item {
@@ -90,6 +90,10 @@ input::placeholder {
     font-size: 16px;
     line-height: 1.2;
     color: var(--second-text-color);
+}
+
+.form__button-img {
+    margin-left: 103px;
 }
 
 
