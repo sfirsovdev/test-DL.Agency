@@ -647,7 +647,6 @@ input::placeholder {
 }
 
 .stars__img {
-  display: none;
   position: absolute;
   animation-name: stars__img;
   animation-iteration-count: infinite;
@@ -971,7 +970,7 @@ input::placeholder {
 
 .present__sock__img {
   position: absolute;
-  bottom: -344px;
+  bottom: -900px;
   left: 150px;
   width: 148px;
   height: 256px;
@@ -988,7 +987,7 @@ input::placeholder {
 
 .present__hat__img {
   position: absolute;
-  bottom: -324px;
+  bottom: -900px;
   left: 150px;
   width: 148px;
   height: 170px;
@@ -1005,7 +1004,7 @@ input::placeholder {
 
 .present__bag__img {
   position: absolute;
-  bottom: -316px;
+  bottom: -900px;
   left: 170px;
   width: 148px;
   height: 156px;
