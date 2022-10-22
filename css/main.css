@@ -665,7 +665,7 @@ input::placeholder {
   background-image: url(../images/about/about_background_pc-1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  max-height: 755px;
+  background-size: cover;
 }
 
 .about__right {
