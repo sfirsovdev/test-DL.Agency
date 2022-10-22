@@ -15,8 +15,11 @@ display: none;
     display: flex;
     flex-direction: column;
     background-color: #D02B2B;
-    left: calc(50vw + 750px);
+    left: calc(50vw + 318px);
     transform: translateX(-100%);
+    @media screen and(min-width:768px) {
+            left: calc(50vw + 750px);
+        }
         
 }
 

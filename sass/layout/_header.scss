@@ -5,13 +5,6 @@
     background: transparent;
 }
 
-.header__logo {
-    margin-right:138px;
-    @media screen and(min-width:768px) {
-            margin-right: 0;
-        }
-}
-
 .header__menu {
     display: none;
     @media screen and(min-width:768px) {
