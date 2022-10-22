@@ -52,10 +52,21 @@ picture img {
 .container {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 49px;
-  padding-right: 49px;
-  max-width: 1400px;
+  padding-left: 27px;
+  padding-right: 27px;
+  max-width: 739px;
   overflow: hidden;
+}
+
+@media screen and (min-width: 740px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 49px;
+    padding-right: 49px;
+    max-width: 1400px;
+    overflow: hidden;
+  }
 }
 
 .mob-menu-top {
@@ -516,7 +527,7 @@ input::placeholder {
   background-color: #070701 !important;
   background-repeat: no-repeat;
   background-position: center;
-  max-height: 755px;
+  background-size: cover;
 }
 
 .stars__img {
