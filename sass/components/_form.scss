@@ -1,5 +1,6 @@
 .modalchecktext {
     display: flex;
+    padding-bottom: 75px;
     font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
@@ -23,7 +24,12 @@
         background-repeat: no-repeat;
         border: none;
     }
-}
+        @media screen and(min-width:768px) {
+           padding-bottom: 0;
+    
+        }
+        }
+
 
 .modalchecktext__link {
     text-decoration-skip-ink: none;
@@ -44,32 +50,51 @@
 }
 
 .form {
-    padding-left: 22px;
-}
+    padding-left: 0;
+    padding-right: 0;
+    @media screen and(min-width:768px) {
+            padding-left: 22px;
+            padding-right: 49px;
+    
+        }
+    }
+
 
 .form__box {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-}
+  
+    @media screen and(min-width:768px) {
+            display: flex;
+                flex-wrap: wrap;
+                width: 50%;
+    
+        }
+    }
+
 
 .form__item {
     margin-right: 23px;
     margin-bottom: 20px;
     padding-left: 22px;
     background: transparent;
-    width: 220px;
+    width: 346px;
     height: 48px;
     border: solid 3px #fff;
     border-radius: 15px;
-}
+    @media screen and(min-width:768px) {
+            width: 220px;
+        }
+    }
+
 
 .form__item__witsh {
     background: transparent;
-    width: 468px;
+    width: 345px;
     height: 76px;
     border: solid 3px #fff;
     border-radius: 15px;
+    @media screen and(min-width:768px) {
+            width: 468px;
+        }
 }
 
 .form__input {
@@ -99,7 +124,10 @@ input::placeholder {
 }
 
 .form__button-img {
-    margin-left: 103px;
+    margin-left: 230px;
+    @media screen and(min-width:768px) {
+        margin-left: 103px;
+        }
 }
 
 

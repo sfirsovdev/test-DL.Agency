@@ -3,16 +3,26 @@
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
+    
 }
 
 .writeus__title {
-    padding-top: 181px;
-    padding-left: 22px;
+    padding-top: 133px;
+    padding-left: 0;
+    padding-right: 0;
     margin-bottom: 29px;
     font-family: Risque;
     font-weight: 400;
-    font-size: 56px;
+    font-size: 52px;
     line-height: 1.2;
     color: var(--second-text-color);
-}
+    @media screen and(min-width:768px) {
+        padding-top: 181px;
+            padding-left: 22px;
+            padding-right: 49px;
+            font-size: 56px;
+    
+        }
+    }
+
 
