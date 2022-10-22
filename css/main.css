@@ -54,18 +54,17 @@ picture img {
   margin-right: auto;
   padding-left: 27px;
   padding-right: 27px;
-  max-width: 739px;
+  max-width: 767px;
   overflow: hidden;
 }
 
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 768px) {
   .container {
     margin-left: auto;
     margin-right: auto;
     padding-left: 49px;
     padding-right: 49px;
     max-width: 1400px;
-    overflow: hidden;
   }
 }
 
@@ -151,11 +150,17 @@ picture img {
 
 .burger {
   position: absolute;
-  right: 62px;
+  right: 329px;
   z-index: 999;
   width: 30px;
   height: 46px;
   cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .burger {
+    right: 62px;
+  }
 }
 
 .burger span, .burger span::after, .burger span::before {
@@ -419,12 +424,20 @@ input::placeholder {
 }
 
 .snowball__main-img {
+  display: none;
   position: absolute;
   left: -220px;
   top: 269px;
   animation: 1s linear 0s normal none infinite running rot;
   -webkit-animation: 50s linear 0s normal none infinite running rot;
   width: 520px;
+}
+
+@media screen and (min-width: 768px) {
+  .snowball__main-img {
+    display: block;
+    position: absolute;
+  }
 }
 
 @-webkit-keyframes rot {
@@ -450,12 +463,20 @@ input::placeholder {
 }
 
 .snowball__about-img {
+  display: none;
   position: absolute;
   left: -219px;
   top: -147px;
   animation: 1s linear 0s normal none infinite running rot;
   -webkit-animation: 50s linear 0s normal none infinite running rot;
   width: 520px;
+}
+
+@media screen and (min-width: 768px) {
+  .snowball__about-img {
+    display: block;
+    position: absolute;
+  }
 }
 
 @keyframes rot {
@@ -476,9 +497,28 @@ input::placeholder {
   background: transparent;
 }
 
+.header__logo {
+  margin-right: 138px;
+}
+
+@media screen and (min-width: 768px) {
+  .header__logo {
+    margin-right: 0;
+  }
+}
+
 .header__menu {
-  margin-left: auto;
-  margin-right: auto;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .header__nav {
@@ -605,6 +645,7 @@ input::placeholder {
 }
 
 .main__dedtext {
+  display: none;
   position: absolute;
   top: 0;
   -webkit-animation: anim 3s;
@@ -620,6 +661,13 @@ input::placeholder {
   top: 383px;
   -webkit-filter: drop-shadow(15px 4px 5px rgba(255, 255, 255, 0.25));
           filter: drop-shadow(15px 4px 5px rgba(255, 255, 255, 0.25));
+}
+
+@media screen and (min-width: 768px) {
+  .main__dedtext {
+    display: block;
+    position: absolute;
+  }
 }
 
 @-webkit-keyframes anim {
@@ -778,7 +826,7 @@ input::placeholder {
   background-image: url(../images/write_us/write_us_background_pc-1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  max-height: 755px;
+  background-size: cover;
 }
 
 .writeus__title {

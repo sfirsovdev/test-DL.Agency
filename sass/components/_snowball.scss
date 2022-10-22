@@ -1,10 +1,15 @@
 .snowball__main-img {
+    display: none;
     position: absolute;
     left: -220px;
     top: 269px;
     animation: 1s linear 0s normal none infinite running rot;
     -webkit-animation: 50s linear 0s normal none infinite running rot;
     width: 520px;
+    @media screen and(min-width:768px) {
+        display: block;
+            position: absolute;
+        }
 }
 
 @keyframes rot {
@@ -18,12 +23,17 @@
 }
 
 .snowball__about-img {
+    display: none;
     position: absolute;
     left: -219px;
     top: -147px;
     animation: 1s linear 0s normal none infinite running rot;
     -webkit-animation: 50s linear 0s normal none infinite running rot;
     width: 520px;
+    @media screen and(min-width:768px) {
+            display: block;
+            position: absolute;
+        }
 }
 
 @keyframes rot {

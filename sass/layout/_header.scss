@@ -5,9 +5,20 @@
     background: transparent;
 }
 
+.header__logo {
+    margin-right:138px;
+    @media screen and(min-width:768px) {
+            margin-right: 0;
+        }
+}
+
 .header__menu {
-    margin-left: auto;
-    margin-right: auto;
+    display: none;
+    @media screen and(min-width:768px) {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        }
 }
 
 .header__nav {

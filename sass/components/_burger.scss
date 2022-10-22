@@ -9,11 +9,14 @@
 
 .burger {
     position: absolute;
-    right: 62px;
+    right: 329px;
     z-index: 999;
     width: 30px;
     height: 46px;
     cursor: pointer;
+    @media screen and(min-width:768px) {
+            right: 62px;
+        }
 }
 
 .burger span, .burger span::after, .burger span::before {
