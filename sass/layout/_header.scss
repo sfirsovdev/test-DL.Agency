@@ -1,8 +1,15 @@
 .header {
-    position: fixed;
+    padding-left: 0;
+    padding-right: 0;
+    position: inherit;
     width: 100%;
-    z-index: 200;
     background: transparent;
+    @media screen and(min-width:768px) {
+        padding-left: 49px;
+        padding-right: 49px;
+        position: fixed;
+        z-index: 200;
+        }
 }
 
 .header__menu {
@@ -15,10 +22,13 @@
 }
 
 .header__nav {
-    margin-bottom: 72px;
+    margin-bottom: 131px;
     padding-top: 38.94px;
     display: flex;
     align-items: center;
+    @media screen and(min-width:768px) {
+            margin-bottom: 72px;
+}
 }
 
 .header__list {

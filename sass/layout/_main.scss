@@ -1,9 +1,14 @@
 .main  {
+     padding-left: 0;
+     padding-right: 0;
+    @media screen and(min-width:768px) {
+        padding-left: 49px;
+        padding-right: 49px;
+        background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
     background-color: rgb(7, 7, 25/20%) !important;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    // max-height: 755px;
+        }
 }
 
 .stars__img {
@@ -33,7 +38,6 @@
 
 
 .main__box {
-    padding-top: 221px;
     padding-left: 0;
     justify-content: space-between;
     width: 100%;

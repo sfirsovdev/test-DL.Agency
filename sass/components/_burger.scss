@@ -9,7 +9,7 @@
 
 .burger {
     position: absolute;
-    right: 83px;
+    right: 43px;
     z-index: 999;
     width: 30px;
     height: 46px;
@@ -21,7 +21,7 @@
 
 .burger-background {
     position: absolute;
-    right: 71px;
+    right: 30px;
     @media screen and(min-width:768px) {
             right: 49px;
         }

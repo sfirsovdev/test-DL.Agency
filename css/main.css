@@ -156,7 +156,7 @@ picture img {
 
 .burger {
   position: absolute;
-  right: 83px;
+  right: 43px;
   z-index: 999;
   width: 30px;
   height: 46px;
@@ -171,7 +171,7 @@ picture img {
 
 .burger-background {
   position: absolute;
-  right: 71px;
+  right: 30px;
 }
 
 @media screen and (min-width: 768px) {
@@ -508,10 +508,20 @@ input::placeholder {
 }
 
 .header {
-  position: fixed;
+  padding-left: 0;
+  padding-right: 0;
+  position: inherit;
   width: 100%;
-  z-index: 200;
   background: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding-left: 49px;
+    padding-right: 49px;
+    position: fixed;
+    z-index: 200;
+  }
 }
 
 .header__menu {
@@ -529,7 +539,7 @@ input::placeholder {
 }
 
 .header__nav {
-  margin-bottom: 72px;
+  margin-bottom: 131px;
   padding-top: 38.94px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -537,6 +547,12 @@ input::placeholder {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .header__nav {
+    margin-bottom: 72px;
+  }
 }
 
 .header__list {
@@ -571,10 +587,19 @@ input::placeholder {
 }
 
 .main {
-  background-color: #070701 !important;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    padding-left: 49px;
+    padding-right: 49px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #070701 !important;
+  }
 }
 
 .stars__img {
@@ -615,7 +640,6 @@ input::placeholder {
 }
 
 .main__box {
-  padding-top: 221px;
   padding-left: 0;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
