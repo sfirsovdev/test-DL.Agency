@@ -25,10 +25,10 @@
         border: none;
     }
         @media screen and(min-width:768px) {
-           padding-bottom: 0;
+        padding-bottom: 0;
     
-        }
-        }
+    }
+}
 
 
 .modalchecktext__link {
@@ -61,12 +61,10 @@
 
 
 .form__box {
-  
     @media screen and(min-width:768px) {
             display: flex;
                 flex-wrap: wrap;
                 width: 50%;
-    
         }
     }
 

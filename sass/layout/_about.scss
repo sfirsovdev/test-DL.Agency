@@ -1,10 +1,8 @@
 .about {
-  
     background-image: url(../images/about/about_background_pc-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-   
 }
 
 .about__right{
@@ -19,9 +17,8 @@
 .about__box {
     padding-left: 0;
     padding-right: 0;
-   display: block;
+    display: block;
     padding-top: 94px;
-    // padding-left: 33px;
     @media screen and(min-width:768px) {
         padding-top: 199px;
         padding-left: 33px;
@@ -53,7 +50,6 @@
     color: var(--second-text-color);
     @media screen and(min-width:768px) {
             margin-bottom: 30px;
-
         }
 }
 
@@ -63,7 +59,6 @@
 
 
 .about__item__border {
-   
     height: 405px;
     border: none;
     border-radius: 20px;
@@ -73,7 +68,6 @@
         display: flex;
         border: solid 3px #fff;
         padding: 58px 37px 76px 37px;
-    
     }
 }
 
@@ -105,14 +99,13 @@ text-align: inherit;
         padding-left: 0;
             text-align: inherit;
             margin-bottom: 37px;
-    
         }
 }
 
 .present__sock__img {
-   position: absolute;
-   bottom: -900px;
-   left: 150px;
+    position: absolute;
+    bottom: -900px;
+    left: 150px;
     width: 148px;
     height: 256px;
     @media screen and(min-width:768px) {
@@ -120,7 +113,6 @@ text-align: inherit;
         bottom: auto;
         left: auto;
         margin-top: 35px;
-    
         }
 }
 
@@ -152,7 +144,6 @@ text-align: inherit;
             bottom: auto;
             left: auto;
             margin-top: 35px;
-
         }
     }
 
@@ -178,12 +169,11 @@ text-align: inherit;
     &:last-child {
             margin-right: 0;
         }
-                 @media screen and(min-width:768px) {
+                @media screen and(min-width:768px) {
                     margin-right: 32px;
                 width: 149.78px;
                     height: 149.78px;
-        
-                 }
+                }
 }
 
 .about__imgborder.is-active {
@@ -197,7 +187,6 @@ height: 89.95px;
 @media screen and(min-width:768px) {
     width: 69.65px;
         height: 121.33px;
-
     }
 }
 
@@ -208,7 +197,6 @@ height: 89.95px;
     @media screen and(min-width:768px) {
         width: 123.57px;
         height: 93.62px;
-
     }
 }
 
@@ -219,6 +207,5 @@ height: 89.95px;
     @media screen and(min-width:768px) {
         width: 95.11px;
         height: 100.36px;
-
     }
 }

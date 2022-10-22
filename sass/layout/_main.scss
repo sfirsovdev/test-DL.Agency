@@ -12,7 +12,6 @@
 }
 
 .stars__img {
-    // display: none;
     position: absolute;
     animation-name: stars__img;
     animation-iteration-count: infinite;
@@ -23,8 +22,7 @@
     -webkit-animation-timing-function: cubic-bezier(1.0, 0, 0, 1.0);
     -webkit-animation-duration: 2s;
     @media screen and(min-width:768px) {
-            display: block;
-            
+            display: block; 
         }
 } @keyframes stars__img {
     from {
