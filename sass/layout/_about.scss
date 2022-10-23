@@ -113,72 +113,76 @@
 }
 
 .present__sock__img {
-        position: absolute;
+    position: absolute;
+    bottom: -1024px;
+    left: 90px;
+    width: 148px;
+    height: 170px;
+
+    @media screen and(min-width:375px) {
         bottom: -1024px;
-        left: 90px;
-        width: 148px;
-        height: 170px;
-
-        @media screen and(min-width:375px) {
-                bottom: -1024px;
-            }
-
-        @media screen and(min-width:450px) {
-            left: 156px;
-        }
-
-        @media screen and(min-width:768px) {
-            position: inherit;
-            bottom: auto;
-            left: auto;
-            margin-top: 35px;
-        }
     }
+
+    @media screen and(min-width:450px) {
+        bottom: -910px;
+        left: 156px;
+    }
+
+    @media screen and(min-width:768px) {
+        position: inherit;
+        bottom: auto;
+        left: auto;
+        margin-top: 35px;
+    }
+}
 
 .present__hat__img {
-        position: absolute;
+    position: absolute;
+    bottom: -1024px;
+    left: 90px;
+    width: 148px;
+    height: 170px;
+
+    @media screen and(min-width:375px) {
         bottom: -1024px;
-        left: 90px;
-        width: 148px;
-        height: 170px;
-
-        @media screen and(min-width:375px) {
-                bottom: -1024px;
-            }
-
-        @media screen and(min-width:450px) {
-            left: 156px;
-        }
-                @media screen and(min-width:768px) {
-                    position: inherit;
-                    bottom: auto;
-                    left: auto;
-                    margin-top: 35px;
-                }
     }
+
+    @media screen and(min-width:450px) {
+        bottom: -910px;
+        left: 156px;
+    }
+
+    @media screen and(min-width:768px) {
+        position: inherit;
+        bottom: auto;
+        left: auto;
+        margin-top: 35px;
+    }
+}
 
 .present__bag__img {
-        position: absolute;
+    position: absolute;
+    bottom: -1024px;
+    left: 90px;
+    width: 148px;
+    height: 170px;
+
+    @media screen and(min-width:375px) {
         bottom: -1024px;
-        left: 90px;
-        width: 148px;
-        height: 170px;
-
-        @media screen and(min-width:375px) {
-                bottom: -1024px;
-            }
-
-        @media screen and(min-width:450px) {
-            left: 156px;
-        }
-
-        @media screen and(min-width:768px) {
-            position: inherit;
-            bottom: auto;
-            left: auto;
-            margin-top: 35px;
-        }
     }
+
+    @media screen and(min-width:450px) {
+        bottom: -910px;
+        left: 156px;
+    }
+
+    @media screen and(min-width:768px) {
+        position: inherit;
+        bottom: auto;
+        left: auto;
+        margin-top: 35px;
+    }
+}
 
 
 .content {

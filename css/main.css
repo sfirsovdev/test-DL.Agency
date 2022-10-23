@@ -1066,6 +1066,7 @@ input::placeholder {
 
 @media screen and (min-width: 450px) {
   .present__sock__img {
+    bottom: -910px;
     left: 156px;
   }
 }
@@ -1095,6 +1096,7 @@ input::placeholder {
 
 @media screen and (min-width: 450px) {
   .present__hat__img {
+    bottom: -910px;
     left: 156px;
   }
 }
@@ -1124,6 +1126,7 @@ input::placeholder {
 
 @media screen and (min-width: 450px) {
   .present__bag__img {
+    bottom: -910px;
     left: 156px;
   }
 }
