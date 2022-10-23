@@ -597,8 +597,7 @@ input::placeholder {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 512px;
   }
 }
 
