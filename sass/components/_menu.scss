@@ -11,13 +11,15 @@ display: none;
 }
 
 
-.mob-menu-top.animate {
+.mob-menu-top.animate  {
+    
     display: flex;
     flex-direction: column;
     z-index: 99;
     background-color: #D02B2B;
     left: calc(50vw + 318px);
     transform: translateX(-100%);
+
     @media screen and(min-width:768px) {
             left: calc(50vw + 750px);
         }
