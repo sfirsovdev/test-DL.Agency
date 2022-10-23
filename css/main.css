@@ -1038,10 +1038,16 @@ input::placeholder {
 
 .present__sock__img {
   position: absolute;
-  bottom: -777px;
+  bottom: -1024px;
   left: 90px;
   width: 148px;
   height: 170px;
+}
+
+@media screen and (min-width: 375px) {
+  .present__sock__img {
+    bottom: -1024px;
+  }
 }
 
 @media screen and (min-width: 450px) {
@@ -1061,10 +1067,16 @@ input::placeholder {
 
 .present__hat__img {
   position: absolute;
-  bottom: -777px;
+  bottom: -1024px;
   left: 90px;
   width: 148px;
   height: 170px;
+}
+
+@media screen and (min-width: 375px) {
+  .present__hat__img {
+    bottom: -1024px;
+  }
 }
 
 @media screen and (min-width: 450px) {
@@ -1084,10 +1096,16 @@ input::placeholder {
 
 .present__bag__img {
   position: absolute;
-  bottom: -777px;
+  bottom: -1024px;
   left: 90px;
   width: 148px;
   height: 170px;
+}
+
+@media screen and (min-width: 375px) {
+  .present__bag__img {
+    bottom: -1024px;
+  }
 }
 
 @media screen and (min-width: 450px) {
