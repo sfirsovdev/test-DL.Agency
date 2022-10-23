@@ -5,7 +5,7 @@
 .dropdown__button {
     display: block;
     margin-bottom: 26px;
-    width: 345px;
+    width: 100%;
     height: 48px;
     text-align: left;
 
@@ -53,9 +53,12 @@
     border-radius: 15px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    width: 220px;
+    width: 100%;
 
     z-index: 1;
+    @media screen and(min-width:768px) {
+            width: 220px;
+        }
 }
 
 .dropdown__list--visible {
