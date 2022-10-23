@@ -901,6 +901,10 @@ input::placeholder {
   }
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .about {
   padding-left: 0;
   padding-right: 0;
