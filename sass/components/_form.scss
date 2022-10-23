@@ -123,9 +123,12 @@ input::placeholder {
 
 .form__button-img {
     margin-left: 92px;
-    @media screen and(min-width:450px) {
-        margin-left: 220px;
+    @media screen and(min-width:375px) {
+        margin-left: 150px;
         }
+                @media screen and(min-width:450px) {
+                    margin-left: 220px;
+                }
                 @media screen and(min-width:768px) {
                     margin-left: 103px;
                 }

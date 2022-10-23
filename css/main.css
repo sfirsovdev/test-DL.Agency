@@ -403,6 +403,12 @@ input::placeholder {
   margin-left: 92px;
 }
 
+@media screen and (min-width: 375px) {
+  .form__button-img {
+    margin-left: 150px;
+  }
+}
+
 @media screen and (min-width: 450px) {
   .form__button-img {
     margin-left: 220px;
