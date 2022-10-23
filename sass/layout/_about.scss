@@ -65,6 +65,7 @@
 
 .about__list {
     display: flex;
+    justify-content: center;
 }
 
 
@@ -202,7 +203,6 @@
             margin-right: 0;
         }
                 @media screen and(min-width:450px) {
-                    margin-right: 32px;
                     width: 111px;
                     height: 111px;
                 }

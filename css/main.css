@@ -988,6 +988,9 @@ input::placeholder {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .about__item__border {
@@ -1156,7 +1159,6 @@ input::placeholder {
 
 @media screen and (min-width: 450px) {
   .about__imgborder {
-    margin-right: 32px;
     width: 111px;
     height: 111px;
   }
