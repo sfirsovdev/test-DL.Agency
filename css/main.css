@@ -705,6 +705,7 @@ input::placeholder {
 
 .starsmob__img {
   position: absolute;
+  top: 203px;
   animation-name: stars__img;
   animation-iteration-count: infinite;
   animation-timing-function: cubic-bezier(1, 0, 0, 1);
